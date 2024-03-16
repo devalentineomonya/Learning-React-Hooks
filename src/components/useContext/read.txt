@@ -1,0 +1,10 @@
+This hook is used to manage global data in react application 
+
+THEMES                 GLOBAL STATES
+USER SETTINGS          SERVICES
+
+Steps to create context
+
+1 Creating the context
+2.Provide the context
+3. Consume the context

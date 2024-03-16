@@ -1,0 +1,13 @@
+⏩⏩UseEffect Hook
+
+useState Hooks is used to perform side effects in our component 
+
+❓❓What are side effects 
+
+✔Side effect are actions which are performed with the "Outside world"
+✔Side effects are performed when we need to reach outside of the react component to do something
+
+Side effects are used in the
+✔ Fetching Data from and API
+✔ Directly Updating the DOM using the document or window methods
+✔ Timer functions such as setInterval or setTimeout
