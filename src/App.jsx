@@ -3,6 +3,8 @@ import MainPost from "./components/Posts/MainPost";
 import UseRefMutableVariable from "./components/UseRef/UseRefMutableVariable";
 import UseRefDomElements from "./components/UseRef/UseRefDomElements";
 import UseReducer1 from "./components/UseReducer/UseReducer1";
+import UseLayout from "./components/UseLayoutEffect/UseLayout";
+import GetTextDimensions from "./components/UseLayoutEffect/GetTextDimensions";
 // import UseEffectCleaner from "./components/useEffectHooks/UseEffectCleaner";
 // import UseEffectWithVariables from "./components/useEffectHooks/UseEffectWithVariables";
 // import Counter from "./components/useStateHooks/counterComponent/Counter";
@@ -27,7 +29,9 @@ const App = () => {
         {/* <MainPost /> */}
         {/* <UseRefMutableVariable/> */}
         {/* <UseRefDomElements/> */}
-        <UseReducer1/>
+        {/* <UseReducer1/> */}
+        {/* <UseLayout/> */}
+        <GetTextDimensions/>
       </div>
     </>
   );

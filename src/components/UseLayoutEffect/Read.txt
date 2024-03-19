@@ -1,0 +1,16 @@
+Use Layout works the same as useEffect and they have similar syntax the difference comes in when it is running
+UseEffect runs After the DOM is printed on the browser
+UseLayout runs before the DOM is printed on the browser
+Used when :=
+:=We want to run code before the DOM is printed
+:=Use to measure the Height Width or anything layout related
+It run Synchronously which mean that it only moves to the next line is the first line has been executed
+The most common use case of useLayout is to get the dimension of the layout thus resulting to the name use layout
+
+
+HOW THEY ARE RUN
+
+React Calculates this component
+UseLayoutEffect runs
+React Prints all elements
+UseEffect Runs
