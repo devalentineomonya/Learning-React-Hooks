@@ -1,0 +1,5 @@
+UseMemo
+This hook is used to apply Memoization in react JS
+
+Memoization==>This is a technique to improve the performance of code
+                It is used to avoid expensive calculations on every render when the returned value is not changed.
