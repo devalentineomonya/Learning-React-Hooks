@@ -1,0 +1,2 @@
+Custom hooks are basically a reusable function eg for fetching data from an api
+This are your own hooks that you create for your own use and you can use then multiple times in your project.

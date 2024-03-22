@@ -7,7 +7,7 @@ import UseLayout from "./components/UseLayoutEffect/UseLayout";
 import GetTextDimensions from "./components/UseLayoutEffect/GetTextDimensions";
 import UseMemo from "./components/useMemo/UseMemo";
 import UseCallback from "./components/useCallBack/UseCallback";
-
+import FetchUsers from "./components/customeHooks/FetchUsers";
 // import UseEffectCleaner from "./components/useEffectHooks/UseEffectCleaner";
 // import UseEffectWithVariables from "./components/useEffectHooks/UseEffectWithVariables";
 // import Counter from "./components/useStateHooks/counterComponent/Counter";
@@ -36,7 +36,8 @@ const App = () => {
         {/* <UseLayout/> */}
         {/* <GetTextDimensions/> */}
         {/* <UseMemo/> */}
-        <UseCallback/>
+        {/* <UseCallback/> */}
+        <FetchUsers/>
       </div>
     </>
   );
