@@ -1,0 +1,2 @@
+UseCallBack is used to return Memoize function.
+Its also useful for preventing functions from being re-created on re-rendering.
