@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import React, {  useLayoutEffect, useRef, useState } from "react";
 
 const GetTextDimensions = () => {
   const textDisplay = useRef(null); // Define textDisplay using useRef

@@ -1,13 +1,20 @@
-import React, { useEffect, useState } from "react";
-import MainPost from "./components/Posts/MainPost";
-import UseRefMutableVariable from "./components/UseRef/UseRefMutableVariable";
-import UseRefDomElements from "./components/UseRef/UseRefDomElements";
-import UseReducer1 from "./components/UseReducer/UseReducer1";
-import UseLayout from "./components/UseLayoutEffect/UseLayout";
-import GetTextDimensions from "./components/UseLayoutEffect/GetTextDimensions";
-import UseMemo from "./components/useMemo/UseMemo";
-import UseCallback from "./components/useCallBack/UseCallback";
-import FetchUsers from "./components/customeHooks/FetchUsers";
+// import React, { useEffect, useState } from "react";
+// import MainPost from "./components/Posts/MainPost";
+// import UseRefMutableVariable from "./components/UseRef/UseRefMutableVariable";
+// import UseRefDomElements from "./components/UseRef/UseRefDomElements";
+// import UseReducer1 from "./components/UseReducer/UseReducer1";
+// import UseLayout from "./components/UseLayoutEffect/UseLayout";
+// import GetTextDimensions from "./components/UseLayoutEffect/GetTextDimensions";
+// import UseMemo from "./components/useMemo/UseMemo";
+// import UseCallback from "./components/useCallBack/UseCallback";
+// import FetchUsers from "./components/customeHooks/FetchUsers";
+import { RouterProvider } from "react-router-dom";
+{
+  /* <RouterProvider router={route}/>
+<RouterProvider router={route}/>
+<RouterProvider router={route}/> */
+}
+import { router } from "./router";
 // import UseEffectCleaner from "./components/useEffectHooks/UseEffectCleaner";
 // import UseEffectWithVariables from "./components/useEffectHooks/UseEffectWithVariables";
 // import Counter from "./components/useStateHooks/counterComponent/Counter";
@@ -17,6 +24,7 @@ import FetchUsers from "./components/customeHooks/FetchUsers";
 const App = () => {
   return (
     <>
+      <RouterProvider router={router} />
       <div>
         {/* <h1>This is rendered for the counter component</h1>
         <Counter />
@@ -37,7 +45,7 @@ const App = () => {
         {/* <GetTextDimensions/> */}
         {/* <UseMemo/> */}
         {/* <UseCallback/> */}
-        <FetchUsers/>
+        {/* <FetchUsers/> */}
       </div>
     </>
   );
