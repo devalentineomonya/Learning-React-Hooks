@@ -42,11 +42,11 @@ const Sidebar = () => {
       </ul>
       {sidebarLinks?.map((category) => (
         <div key={category.category} className="mt-8">
-          <h2 className="font-medium uppercase text-base">{category.category}</h2>
+          <h2 className="font-semibold uppercase text-base">{category.category}</h2>
           <ul>
             {category.hooks.map((hook) => (
-              <li key={hook.name} className="text-sm font-normal my-2">
-                <Link to={category.link}>{hook.name}</Link>
+              <li key={hook.name} className="text-sm font-medium my-2">
+                <Link to={hook.link}>{hook.name}</Link>
               </li>
             ))}
           </ul>
